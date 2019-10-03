@@ -1,0 +1,1 @@
+-e ((requiring-resolve,'clojure.java.shell/sh),"javac","java/src/my/project/Thing.java")

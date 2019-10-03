@@ -1,0 +1,4 @@
+{:paths ["clj/src" "java/src"]
+ :aliases
+ {:compile
+  {:main-opts ["-e" "((requiring-resolve,'clojure.java.shell/sh),\"javac\",\"java/src/my/project/Thing.java\")"]}}}
